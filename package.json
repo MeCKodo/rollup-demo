@@ -1,0 +1,25 @@
+{
+  "name": "rollup-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MeCKodo/rollup-demo.git",
+  "author": "kodo <524580860@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "lodash": "^4.17.4",
+    "lodash-es": "^4.17.4",
+    "moment": "^2.18.1",
+    "rollup": "^0.41.6",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-json": "^2.1.1",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^1.0.2",
+    "the-answer": "^1.0.0"
+  }
+}
