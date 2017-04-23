@@ -6,11 +6,12 @@
   "author": "kodo <524580860@qq.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c"
+    "build": "NODE_ENV=production node build.js"
   },
   "devDependencies": {
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-latest": "^6.24.1",
+    "glob": "^7.1.1",
     "lodash": "^4.17.4",
     "lodash-es": "^4.17.4",
     "moment": "^2.18.1",
@@ -18,8 +19,12 @@
     "rollup-plugin-babel": "^2.7.1",
     "rollup-plugin-commonjs": "^8.0.2",
     "rollup-plugin-json": "^2.1.1",
+    "rollup-plugin-multi-entry": "^2.0.1",
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-uglify": "^1.0.2",
     "the-answer": "^1.0.0"
+  },
+  "dependencies": {
+    "vue": "^2.2.6"
   }
 }
